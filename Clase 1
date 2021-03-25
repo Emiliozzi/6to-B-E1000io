@@ -1,6 +1,11 @@
-        int a=4;
+             int a=4;
         int b=7;
-        int res;
-        res = a+b;
+        int suma = a+b;
+        int resta = a-b;
+        int mult = a*b;
+        int div = a/b;
         
-        System.out.println("El resultado es:" + res);
+        System.out.println("El resultado de la suma es :" + suma);
+        System.out.println("El resultado de la resta es :" + resta);
+        System.out.println("El resultado de la multiplicación es :" + mult);
+        System.out.println("El resultado de la división es :" + div);
