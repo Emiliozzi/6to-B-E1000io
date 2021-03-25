@@ -1,0 +1,16 @@
+String nombre;
+        double notauno,notados,promedio;
+        Scanner entrada = new Scanner(System.in);
+        
+        System.out.println("Ingresar nombre del alumno");
+        nombre = entrada.nextLine();
+        
+        System.out.println("Ingresar la primera nota");
+        notauno = entrada.nextInt();
+        
+        System.out.println("Ingresar la segunda nota");
+        notados = entrada.nextInt();
+        
+        promedio = (notauno + notados)/2;
+        
+        System.out.println("Promedio de " + nombre + " : " + promedio);
