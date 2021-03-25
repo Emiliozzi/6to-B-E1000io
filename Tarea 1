@@ -1,0 +1,19 @@
+int sueldomes, sueldoaño, horasxmes, pagoxhora;
+       String nombre;
+       Scanner entrada = new Scanner(System.in);
+       
+        System.out.println("Ingrese el nombre del trabajador");
+        nombre = entrada.nextLine();
+        
+        System.out.println("Ahora ingrese cuantas horas trabajó");
+        horasxmes = entrada.nextInt();
+        
+        System.out.println("¿Cuánto le va a pagar por hora? Ingrese monto numérico");
+        pagoxhora = entrada.nextInt();
+        
+        sueldomes = horasxmes * pagoxhora;
+        sueldoaño = sueldomes * 12;
+        
+        System.out.println("Sueldo de " + nombre + " por mes: " + sueldomes);
+        System.out.println("Ingeso anual de " + nombre + ": " + sueldoaño);
+ 
