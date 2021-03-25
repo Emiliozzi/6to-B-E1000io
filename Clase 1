@@ -1,0 +1,6 @@
+        int a=4;
+        int b=7;
+        int res;
+        res = a+b;
+        
+        System.out.println("El resultado es:" + res);
