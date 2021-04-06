@@ -1,0 +1,19 @@
+int velocidad, nuevavelocidad, radio = 0;
+        double longitud, area = 0;
+
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("Ingrese la velocidad en Km/h (solo ingresar cantidad de kilometros)");
+        velocidad = entrada.nextInt();
+
+        nuevavelocidad = (velocidad * 1000) / 3600;
+
+        System.out.println("Ahora ingresar distancia del radio de una circunferencia");
+        radio = entrada.nextInt();
+
+        longitud = radio * 2 * Math.PI;
+        area = Math.PI * Math.pow(radio, 2);
+
+        System.out.println("Su velocidad en este nuevo formato es de: " + nuevavelocidad + " m/s");
+        System.out.println("Longitud de la circunferencia: " + longitud);
+        System.out.println("Área de la circunferencia: " + area);
