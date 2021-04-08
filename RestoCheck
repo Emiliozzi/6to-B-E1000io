@@ -1,0 +1,13 @@
+ Scanner entrada = new Scanner(System.in);
+        int numero;
+
+        System.out.println("Ingrese un número");
+        numero = entrada.nextInt();
+
+        if (numero % 2 == 0) {
+
+            System.out.println("Este número es par ");
+
+        } else {
+            System.out.println("Este número no es par");
+        }
