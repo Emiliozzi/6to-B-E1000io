@@ -1,0 +1,14 @@
+int a = 1;
+        int i;
+        perro labrador[] = new perro[a];
+        for (i = 0; i < labrador.length; i++) {
+            labrador[i] = new perro();
+            labrador[i].setNombre(JOptionPane.showInputDialog("Ingrese Nombre"));
+
+            labrador[i].setEdad(Integer.valueOf(JOptionPane.showInputDialog("Ingrese Edad(en años)")));
+            labrador[i].setRaza(JOptionPane.showInputDialog("Ingrese Raza"));
+        }
+
+        for (i = 0; i < labrador.length; i++) {
+            JOptionPane.showMessageDialog(null, labrador[i].getNombre() + "," + labrador[i].getEdad() + " años, " + labrador[i].getRaza());
+        }
